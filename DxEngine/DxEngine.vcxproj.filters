@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="03. Shader">
+      <UniqueIdentifier>{fbecab9c-8da7-423e-8122-a4869cfcd667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource">
+      <UniqueIdentifier>{5c2424ae-eff7-476c-ad1b-fbd54a42d7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Mesh">
+      <UniqueIdentifier>{12817ab3-ed5f-43ae-97d2-87b25027ec41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Shader\VertexShader">
+      <UniqueIdentifier>{251e1987-c20d-4796-b83a-cf75f87cb407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Shader\PixelShader">
+      <UniqueIdentifier>{722983bc-acb2-4fb8-83c9-90a563c5db9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene">
+      <UniqueIdentifier>{70d60e24-f854-42c7-b951-7d2a4e9d4be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Actor">
+      <UniqueIdentifier>{77a10a2f-269b-4601-9ff8-bf6431927437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component">
+      <UniqueIdentifier>{91eb4ad4-0237-4fe7-8018-0d11c7c739c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub">
+      <UniqueIdentifier>{ccc11645-48a7-4283-8bbb-ec2c74cbd142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Camera">
+      <UniqueIdentifier>{d1efb03d-2388-435e-81f0-f29397b1788f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Collider">
+      <UniqueIdentifier>{b2ede650-809f-42d7-bd1b-cfad46d6764a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Transform">
+      <UniqueIdentifier>{5bb11d6a-d2c3-4594-9f51-c3ac953f8166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Custom">
+      <UniqueIdentifier>{3d69e955-5422-4fbb-ba88-b9711ba97541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Texture">
+      <UniqueIdentifier>{b667770e-4de7-4142-9085-91c05922940c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Grapic Engine">
+      <UniqueIdentifier>{5c032695-a852-4a2a-b994-b37c88ebc3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Buffer">
+      <UniqueIdentifier>{640493f1-748f-4efe-b80d-b592a8440b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Sampler">
+      <UniqueIdentifier>{e1bb4b94-7147-46f3-8ceb-817826f6ede6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Sprite">
+      <UniqueIdentifier>{2cc3e553-e0b4-488f-9ec2-35d29bbd0365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Animation">
+      <UniqueIdentifier>{40652c78-08b8-4882-a9d1-094f2ab3de3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Manager">
+      <UniqueIdentifier>{81408b12-03bf-44c3-b2c4-50646e2bf0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Blender">
+      <UniqueIdentifier>{2b8be0a5-4cb5-4a49-a84a-41f6323a48c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\DepthStencil">
+      <UniqueIdentifier>{095063a6-e6e9-4623-8e6c-9ba9da6e9650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Rasterizer">
+      <UniqueIdentifier>{77f4e99b-a098-4c63-9a47-4bd033b9918b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Collider\OBB">
+      <UniqueIdentifier>{fd3cb9ae-8818-4e58-9b97-fc74baf22a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Collider\OBB\3D">
+      <UniqueIdentifier>{c0d194d0-f4dc-40a3-a1e3-c37c6165e453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Collider\OBB\2D">
+      <UniqueIdentifier>{64197cf2-9703-4aa6-9ac5-ddd11e4b1ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Collider\AABB">
+      <UniqueIdentifier>{bd0a1183-fa83-4d53-99c7-fa681cebc5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Collider\Sphear">
+      <UniqueIdentifier>{2f906374-47a7-4194-afd0-8770494ada90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Collider\Sphear\2D">
+      <UniqueIdentifier>{49a1666b-1207-4557-ab5c-b683b2dd43e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Collider\Sphear\3D">
+      <UniqueIdentifier>{4cb7ca61-6215-4d32-8fdb-92430fa1c68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. GameWindow">
+      <UniqueIdentifier>{d1215b64-7452-4271-b324-8601ebb152a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Transform\Sub">
+      <UniqueIdentifier>{84dde412-8d85-4453-997d-8f7fb643494d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Renderer">
+      <UniqueIdentifier>{73f7eaad-c5ab-43ba-9451-e3d181e23492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Renderer\2D">
+      <UniqueIdentifier>{1b66edd1-164a-4760-9c6a-83c0ad8fbf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Sub\Renderer\Rect">
+      <UniqueIdentifier>{272c3038-813e-41ff-b9f7-efbd30981212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_ DebugRenderer">
+      <UniqueIdentifier>{0c4c8003-c737-4412-9d22-f27f1bf927ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Font">
+      <UniqueIdentifier>{f23d9a9c-8fd8-4578-83fa-990b5f60972c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\_Instancing">
+      <UniqueIdentifier>{3d484145-79cb-488b-b109-c15a66f1fc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\_Instancing\RenderingPaths">
+      <UniqueIdentifier>{450408cd-bb9b-4c46-8c21-fd72519d37f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\_Instancing\InstanceData">
+      <UniqueIdentifier>{0c28e0ca-a1d0-4110-8a9e-cf62866c33ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Sound">
+      <UniqueIdentifier>{e4806115-4c66-46e1-857a-90df6459f528}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GMesh.cpp">
+      <Filter>02. Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="GShader.cpp">
+      <Filter>03. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexGShader.cpp">
+      <Filter>03. Shader\VertexShader</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelGShader.cpp">
+      <Filter>03. Shader\PixelShader</Filter>
+    </ClCompile>
+    <ClCompile Include="GScene.cpp">
+      <Filter>05. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GActor.cpp">
+      <Filter>06. Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ComCamera.cpp">
+      <Filter>04. Component\Sub\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ComCollider.cpp">
+      <Filter>04. Component\Sub\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="ComRender.cpp">
+      <Filter>04. Component\Sub\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GEngineDevice.cpp">
+      <Filter>01. Grapic Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseUpdater.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ComCustom.cpp">
+      <Filter>04. Component\Sub\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="GTexture.cpp">
+      <Filter>02. Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GConstBuffer.cpp">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GSampler.cpp">
+      <Filter>02. Resource\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="GSprite.cpp">
+      <Filter>02. Resource\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Com2dAnimation.cpp">
+      <Filter>04. Component\Sub\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GAnimation.cpp">
+      <Filter>04. Component\Sub\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererManager.cpp">
+      <Filter>07. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGComponent.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GEngineDevice_InitDefaultRes.cpp">
+      <Filter>01. Grapic Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ComRenderColorRect.cpp">
+      <Filter>04. Component\Sub\Renderer\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="GBlender.cpp">
+      <Filter>02. Resource\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="GDepthStencil.cpp">
+      <Filter>02. Resource\DepthStencil</Filter>
+    </ClCompile>
+    <ClCompile Include="GRasterizer.cpp">
+      <Filter>02. Resource\Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>07. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Com3DColliderOBB.cpp">
+      <Filter>04. Component\Sub\Collider\OBB\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Com2DColliderOBB.cpp">
+      <Filter>04. Component\Sub\Collider\OBB\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Com2DColliderSphere.cpp">
+      <Filter>04. Component\Sub\Collider\Sphear\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Com3DColliderSphere.cpp">
+      <Filter>04. Component\Sub\Collider\Sphear\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>00. GameWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ComTransform.cpp">
+      <Filter>04. Component\Sub\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="ComRender2DSprite.cpp">
+      <Filter>04. Component\Sub\Renderer\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer.cpp">
+      <Filter>_ DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="FWFont.cpp">
+      <Filter>02. Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingPaths.cpp">
+      <Filter>02. Resource\_Instancing\RenderingPaths</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceBuffer.cpp">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GSound.cpp">
+      <Filter>02. Resource\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GMesh.h">
+      <Filter>02. Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GShader.h">
+      <Filter>03. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexGShader.h">
+      <Filter>03. Shader\VertexShader</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelGShader.h">
+      <Filter>03. Shader\PixelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>02. Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GScene.h">
+      <Filter>05. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GActor.h">
+      <Filter>06. Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGComponent.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComCamera.h">
+      <Filter>04. Component\Sub\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ComCollider.h">
+      <Filter>04. Component\Sub\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ComRender.h">
+      <Filter>04. Component\Sub\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ComTransform.h">
+      <Filter>04. Component\Sub\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="GEngineDevice.h">
+      <Filter>01. Grapic Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUpdater.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComCustom.h">
+      <Filter>04. Component\Sub\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="GTexture.h">
+      <Filter>02. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DxTexDef.h">
+      <Filter>02. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GConstBuffer.h">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GSampler.h">
+      <Filter>02. Resource\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="GSprite.h">
+      <Filter>02. Resource\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Com2dAnimation.h">
+      <Filter>04. Component\Sub\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderType.h">
+      <Filter>03. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GResource.h">
+      <Filter>02. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererManager.h">
+      <Filter>07. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ComRenderColorRect.h">
+      <Filter>04. Component\Sub\Renderer\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="GBlender.h">
+      <Filter>02. Resource\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="GDepthStencil.h">
+      <Filter>02. Resource\DepthStencil</Filter>
+    </ClInclude>
+    <ClInclude Include="GRasterizer.h">
+      <Filter>02. Resource\Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>07. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Com3DColliderOBB.h">
+      <Filter>04. Component\Sub\Collider\OBB\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Com2DColliderOBB.h">
+      <Filter>04. Component\Sub\Collider\OBB\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Com2DColliderSphere.h">
+      <Filter>04. Component\Sub\Collider\Sphear\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Com3DColliderSphere.h">
+      <Filter>04. Component\Sub\Collider\Sphear\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>00. GameWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="ComSubTransform.h">
+      <Filter>04. Component\Sub\Transform\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="ComRender2DSprite.h">
+      <Filter>04. Component\Sub\Renderer\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer.h">
+      <Filter>_ DebugRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="FWFont.h">
+      <Filter>02. Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceData.h">
+      <Filter>02. Resource\_Instancing\InstanceData</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingPaths.h">
+      <Filter>02. Resource\_Instancing\RenderingPaths</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceBuffer.h">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBuffer.h">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>02. Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GSound.h">
+      <Filter>02. Resource\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

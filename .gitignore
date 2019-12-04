@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+*.jpg
+.svn/
+*.json
+*.PNG
+*.rbrb
+*.TGA
+*.OGG
+*.WAV
+CommonLibrary/x64/
+DirectX2D/x64/
+DxEngine/x64/
+EditTool/
+psklib/x64/
+ThirdParty/

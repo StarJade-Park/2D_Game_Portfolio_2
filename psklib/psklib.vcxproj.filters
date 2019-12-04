@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="etc">
+      <UniqueIdentifier>{de39f88a-f505-4f21-9bb7-efae8bb2b1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{0629f73a-e2d2-4580-b637-5825e6726088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{ea4d18ac-4864-4fa6-8269-40b1d597798d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Vector">
+      <UniqueIdentifier>{134d5dbf-21af-4efa-bda3-d659b13e663f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Matrix">
+      <UniqueIdentifier>{cdde037d-eb03-4396-98ce-8bbc19a2129b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{020dd9b2-728e-4bac-b2e1-3b9bb5278840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\FileSystem">
+      <UniqueIdentifier>{4b6edbea-36ed-4a24-bc81-ecdff93d4e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\FileIO">
+      <UniqueIdentifier>{ecceb87b-b1c5-470b-9374-1174222a27e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\KeyInput">
+      <UniqueIdentifier>{df138a90-35b5-41f1-a37f-9ba134caa994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json Parser">
+      <UniqueIdentifier>{a217e752-a7ee-4529-a574-68e262537a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SmartPointer">
+      <UniqueIdentifier>{02ddc9bd-5153-46a8-9d5e-783648142eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{05ce6e82-7807-4ee5-8f1e-134e051cbd7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\SoundClip">
+      <UniqueIdentifier>{371dbb8d-9646-442c-97de-93b5db6fcbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\SoundPlayer">
+      <UniqueIdentifier>{7669ceca-4c16-4fa2-9c63-b2daf5d581af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{bcb793a8-7b39-4b75-aacc-cc59b9d06f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TypeInfo">
+      <UniqueIdentifier>{a9484d25-b9be-4171-a5c6-b9447a5f5a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowController">
+      <UniqueIdentifier>{63dc4a8b-f68a-4721-843f-09f4b184f9cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFileIO.h">
+      <Filter>IO\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowController.h">
+      <Filter>WindowController</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameKeyInput.h">
+      <Filter>IO\KeyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSoundClip.h">
+      <Filter>Sound\SoundClip</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSoundPlayer.h">
+      <Filter>Sound\SoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDef.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFileSystem.h">
+      <Filter>IO\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSoundSystem.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Well512Random.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr.h">
+      <Filter>SmartPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GMatrix.h">
+      <Filter>Geometry\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="GVector.h">
+      <Filter>Geometry\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="MathConstDef.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBlock.h">
+      <Filter>SmartPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseName.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="GTypeInfo.h">
+      <Filter>TypeInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonPaser.h">
+      <Filter>Json Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFileIO.cpp">
+      <Filter>IO\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowController.cpp">
+      <Filter>WindowController</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GameKeyInput.cpp">
+      <Filter>IO\KeyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSoundPlayer.cpp">
+      <Filter>Sound\SoundPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GVector.cpp">
+      <Filter>Geometry\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="GTypeInfo.cpp">
+      <Filter>TypeInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFileSystem.cpp">
+      <Filter>IO\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonPaser.cpp">
+      <Filter>Json Parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

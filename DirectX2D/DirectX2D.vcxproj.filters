@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. SceneUpdater">
+      <UniqueIdentifier>{a1c8e1fb-f5e6-4425-a541-706e2f1142c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Main">
+      <UniqueIdentifier>{3812a8f3-1690-42a7-b028-7605c8c0536c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Main\Init">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="01. Game Objects">
+      <UniqueIdentifier>{b64154af-f33d-4109-9a2c-f35a245fd124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\UI">
+      <UniqueIdentifier>{f4cee91e-3932-40fa-aa63-2f38940bf16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\BG">
+      <UniqueIdentifier>{35b85e75-11cd-4741-9483-50ebcae9133a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Player">
+      <UniqueIdentifier>{147216dd-f0a7-4f94-92c7-74f0a1e64c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Player\Components">
+      <UniqueIdentifier>{df13c949-cfe8-4298-8536-7867d7429685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Player\Components\Move">
+      <UniqueIdentifier>{eb1150d9-864c-495b-bf27-2cb1f8b91e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Player\Components\FSM">
+      <UniqueIdentifier>{5fc65660-04f2-4aca-a77a-ddfb905db1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\_00. ETC">
+      <UniqueIdentifier>{0a1bc3a2-e467-4901-b733-67ce3e3dd9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\_00. ETC\Movement">
+      <UniqueIdentifier>{b6142cff-32ec-45b3-853c-921dc780a640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\_00. ETC\Movement\Camera">
+      <UniqueIdentifier>{71c97c04-8172-40cd-8206-e0b55c63f8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Player\Components\Ribbon">
+      <UniqueIdentifier>{4a21853c-0d71-44fd-9cfc-722e1813df3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneUpdater\InGame">
+      <UniqueIdentifier>{95b58b52-0296-4fe1-a81e-93c5664b3673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneUpdater\Menu">
+      <UniqueIdentifier>{f857c2e8-11a4-405e-a6c2-5a674ceac9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneUpdater\Loading">
+      <UniqueIdentifier>{426b33e8-0a98-4a13-9ada-f2712cb03b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneUpdater\Title">
+      <UniqueIdentifier>{ecaebc50-9f19-41f5-83a9-ead14094dd75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rbrb">
+      <UniqueIdentifier>{e2b54d4e-639c-488d-8ba1-488ba074f9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster">
+      <UniqueIdentifier>{2a9d50ed-39e6-4ed9-a9e5-f9960cf7e11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster\SandBag">
+      <UniqueIdentifier>{5571280b-4cd0-4729-91e9-ba3c885c34fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster\Base">
+      <UniqueIdentifier>{a7072a31-dca1-458e-9d6b-26b573d0af55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster\Base\FSM">
+      <UniqueIdentifier>{2550ea33-1566-4e21-84b8-ec0b0ae3a36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster\OldBoss11">
+      <UniqueIdentifier>{70fb2752-3d23-45ef-aed2-930c56af5e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster\OldBoss11\FSM">
+      <UniqueIdentifier>{4a731a9a-8ea4-4d3d-bd42-fcfa3614189a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster\SandBag\FSM">
+      <UniqueIdentifier>{62a8e4dc-13ff-42a4-91df-f0078803a1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\UI\Damage">
+      <UniqueIdentifier>{88002226-aecf-4eb5-8db9-27b6d40b1542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneUpdater\RbrbMap04">
+      <UniqueIdentifier>{7a24b5a6-f4b5-4b27-8375-ff85df2f6872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster\Boss3N">
+      <UniqueIdentifier>{d1dc5a03-73b5-41ca-bea9-608b8390e14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Monster\Boss3N\FSM">
+      <UniqueIdentifier>{b824b1fe-8e33-433d-9a51-3766228e20f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Bullet">
+      <UniqueIdentifier>{d00f6f3a-b640-4971-82fa-3964546162f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game Objects\Bullet\Base">
+      <UniqueIdentifier>{0137df19-70b7-40b9-9536-803f3dc5455b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>00. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>00. Main\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMoveAble.h">
+      <Filter>01. Game Objects\_00. ETC\Movement\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAble.h">
+      <Filter>01. Game Objects\Player\Components\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>01. Game Objects\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>00. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ErinaFSM.h">
+      <Filter>01. Game Objects\Player\Components\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Erina.h">
+      <Filter>01. Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon.h">
+      <Filter>01. Game Objects\Player\Components\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="TownUpdater.h">
+      <Filter>01. SceneUpdater\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuUpdater.h">
+      <Filter>01. SceneUpdater\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingUpdater.h">
+      <Filter>01. SceneUpdater\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUpdater.h">
+      <Filter>01. SceneUpdater\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Rbrb.h">
+      <Filter>Rbrb</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterFSM.h">
+      <Filter>01. Game Objects\Monster\Base\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Game Objects\Monster\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBag.h">
+      <Filter>01. Game Objects\Monster\SandBag</Filter>
+    </ClInclude>
+    <ClInclude Include="OldBoss3.h">
+      <Filter>01. Game Objects\Monster\OldBoss11</Filter>
+    </ClInclude>
+    <ClInclude Include="SandBagFSM.h">
+      <Filter>01. Game Objects\Monster\SandBag\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="OldBoss3FSM.h">
+      <Filter>01. Game Objects\Monster\OldBoss11\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDamage.h">
+      <Filter>01. Game Objects\UI\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="RbrbMap04.h">
+      <Filter>01. SceneUpdater\RbrbMap04</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss3N_FSM.h">
+      <Filter>01. Game Objects\Monster\Boss3N\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss3N.h">
+      <Filter>01. Game Objects\Monster\Boss3N</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBullet.h">
+      <Filter>01. Game Objects\Bullet\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Init.cpp">
+      <Filter>00. Main\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMoveAble.cpp">
+      <Filter>01. Game Objects\_00. ETC\Movement\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAble.cpp">
+      <Filter>01. Game Objects\Player\Components\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>01. Game Objects\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="ErinaFSM_state.cpp">
+      <Filter>01. Game Objects\Player\Components\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="ErinaFSM.cpp">
+      <Filter>01. Game Objects\Player\Components\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="ErinaFSM_property.cpp">
+      <Filter>01. Game Objects\Player\Components\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Erina.cpp">
+      <Filter>01. Game Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon.cpp">
+      <Filter>01. Game Objects\Player\Components\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="TownUpdater.cpp">
+      <Filter>01. SceneUpdater\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuUpdater.cpp">
+      <Filter>01. SceneUpdater\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingUpdater.cpp">
+      <Filter>01. SceneUpdater\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUpdater.cpp">
+      <Filter>01. SceneUpdater\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ErinaFSM_pos_check.cpp">
+      <Filter>01. Game Objects\Player\Components\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterFSM.cpp">
+      <Filter>01. Game Objects\Monster\Base\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Game Objects\Monster\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SandBag.cpp">
+      <Filter>01. Game Objects\Monster\SandBag</Filter>
+    </ClCompile>
+    <ClCompile Include="OldBoss3.cpp">
+      <Filter>01. Game Objects\Monster\OldBoss11</Filter>
+    </ClCompile>
+    <ClCompile Include="SandBagFSM.cpp">
+      <Filter>01. Game Objects\Monster\SandBag\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="OldBoss3FSM.cpp">
+      <Filter>01. Game Objects\Monster\OldBoss11\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDamage.cpp">
+      <Filter>01. Game Objects\UI\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="RbrbMap04.cpp">
+      <Filter>01. SceneUpdater\RbrbMap04</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss3N.cpp">
+      <Filter>01. Game Objects\Monster\Boss3N</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss3N_FSM.cpp">
+      <Filter>01. Game Objects\Monster\Boss3N\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBullet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectX2D.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="DirectX2D.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo_list.txt" />
+  </ItemGroup>
+</Project>

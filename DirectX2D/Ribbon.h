@@ -1,0 +1,17 @@
+#pragma once
+
+class Ribbon
+{
+private:
+	enum class _RIBBON_STATE : int
+	{
+		RIBBON_ATTCK, RIBBON_CHARGE_ATTCK, RIBBON_DOUBLE_CHARGE_ATTCK,
+		RIBBON_BOOST_ATTCK, RIBBON_BOOST_MAX_ATTCK,
+		RIBBON_TYPE_CHANGE_LEFT, RIBBON_TYPE_CHANGE_RIGHT
+	};
+
+public:
+	Ribbon( );
+	~Ribbon( );
+};
+

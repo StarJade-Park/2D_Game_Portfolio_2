@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GameOption.h">
+      <Filter>GameOption</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyInit.h">
+      <Filter>KeyInit</Filter>
+    </ClInclude>
+    <ClInclude Include="GTileRenderer.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="RbrbRoom.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>GameOption</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyInit.cpp">
+      <Filter>KeyInit</Filter>
+    </ClCompile>
+    <ClCompile Include="GTileRenderer.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="RbrbRoom.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameOption">
+      <UniqueIdentifier>{d7f940cc-6c23-4ef5-8675-0abe7ac69058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tile">
+      <UniqueIdentifier>{86d72e37-af2c-4478-aaab-180ed5a888ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyInit">
+      <UniqueIdentifier>{747999a6-6b2c-46c7-a77f-e5fd19b3ddef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{2979aa25-f664-4b18-a1cc-72ce359ff2db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

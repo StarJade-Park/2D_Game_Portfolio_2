@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="..\BIN\ShaderCode\ColorRect.hlsl" />
+    <FxCompile Include="..\BIN\ShaderCode\TextureShader.hlsl" />
+    <FxCompile Include="..\BIN\ShaderCode\Afterimage.hlsl" />
+    <FxCompile Include="..\BIN\ShaderCode\LoadingBar.hlsl" />
+    <FxCompile Include="..\BIN\ShaderCode\DebugMesh.hlsl" />
+    <FxCompile Include="..\BIN\ShaderCode\TextureForInstance.hlsl" />
+  </ItemGroup>
+</Project>
